@@ -25,3 +25,4 @@ std = ["uint-crate/std", "fixed-hash/std", "ethbloom/std", "primitive-types/std"
 serialize = ["std", "impl-serde", "primitive-types/serde", "ethbloom/serialize"]
 arbitrary = ["ethbloom/arbitrary", "fixed-hash/arbitrary", "uint-crate/arbitrary"]
 codec = ["impl-codec", "ethbloom/codec"]
+num-traits = ["primitive-types/num-traits"]
